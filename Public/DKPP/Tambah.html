@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/src/output.css">
+</head>
+<body class="bg-green-100 h-screen">
+    <!-- Header -->
+    <header class="bg-green-900 text-white p-4 flex justify-between items-center">
+        <img src="/Asset/WhatsApp Image 2025-04-03 at 12.16.37_3e08b726.jpg" 
+             alt="logo" class="h-10 w-30 ml-4">  <!-- Tambah margin kiri -->
+        
+        <h2 class="text-lg font-semibold">Dinas Perindustrian dan Perdagangan</h2>
+        
+        <div class="flex items-center gap-4 mr-4"> <!-- Tambah margin kanan -->
+            <img src="https://via.placeholder.com/40" alt="Profile" 
+                 class="w-10 h-10 rounded-full bg-gray-300">
+            <span class="text-sm">Hi, saya ini</span>
+        </div>
+    </header>
+
+    <div class="flex h-full">
+        <!-- Sidebar -->
+        <aside class="w-64 bg-green-900 text-white p-4 h-screen">
+            <nav>
+                <ul>
+                    <li class="mb-2">
+                        <a href="#" class="block py-2 px-4 rounded hover:bg-green-800">Dashboard</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="DKPP.html" class="block py-2 px-4 rounded hover:bg-green-800">Lihat Data</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="Tambah.html" class="block py-2 px-4 rounded bg-green-600">Tambah Data</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Content -->
+        <main class="flex-1 p-6">
+            <h2 class="text-2xl font-semibold text-green-900">Tambah Data</h2>
+        
+            <div class="bg-white p-6 rounded shadow-md mt-4">
+                <form>
+                    <!-- Nama Pasar -->
+                    <div class="mb-4">
+                        <label class="block text-gray-700">Nama Pasar</label>
+                        <input type="text" placeholder="Contoh: Pasar Tanjung" 
+                               class="border p-2 w-full rounded">
+                    </div>
+        
+                    <!-- Jenis Bahan Pokok -->
+                    <div class="mb-4">
+                        <label class="block text-gray-700">Jenis Bahan Pokok</label>
+                        <input type="text" placeholder="Contoh: Daging" 
+                               class="border p-2 w-full rounded">
+                    </div>
+        
+                    <!-- Harga Barang -->
+                    <div class="mb-4">
+                        <label class="block text-gray-700">Harga Barang</label>
+                        <input type="text" placeholder="Contoh: Rp. 100.000,-" 
+                               class="border p-2 w-full rounded">
+                    </div>
+        
+                    <!-- Tombol -->
+                    <div class="flex justify-between mt-4">
+                        <a href="DKPP.html">
+                        <button type="button" class="bg-green-700 text-white px-6 py-2 rounded hover:bg-green-800">Kembali</button>
+                        </a>
+                        <button type="submit" class="bg-green-700 text-white px-6 py-2 rounded hover:bg-green-800">Tambah</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+              
+    </div>
+</body>
+</html>
